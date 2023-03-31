@@ -1,0 +1,32 @@
+#god {
+  min-width: 100%;
+  min-height: 100vh;
+  display: -webkit-inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(75, 1, 75);
+}
+
+#container {
+  display: inline-flexbox;
+  justify-content: center;
+  min-width: auto;
+  max-width: 170vh;
+  text-align: center;
+}
+
+#img {
+  display: block;
+  width: auto;
+  padding-top: 2vh;
+  text-align: center;
+}
+
+#footer {
+  display: inline-flex;
+  width: fit-content;
+  text-align: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
